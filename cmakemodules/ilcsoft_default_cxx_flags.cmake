@@ -30,8 +30,8 @@ FOREACH( FLAG ${COMPILER_FLAGS} )
   ENDIF()
 ENDFOREACH()
 
-OPTION( USE_CXX11 "Use CXX Standard 2011" False )
-OPTION( USE_CXX14 "Use CXX Standard 2014" True )
+OPTION( USE_CXX11 "Use CXX Standard 2011" True )
+OPTION( USE_CXX14 "Use CXX Standard 2014" False )
 OPTION( USE_CXX17 "Use CXX Standard 2017" False )
 OPTION( USE_CXX20 "Use CXX Standard 2020" False )
 
