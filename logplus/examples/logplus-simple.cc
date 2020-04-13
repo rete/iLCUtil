@@ -1,8 +1,8 @@
 
-#include <streamlogplus/streamlogplus.h>
+#include <logplus/logplus.h>
 
-using namespace streamlogplus::levels ;
-using namespace streamlogplus ;
+using namespace logplus::levels ;
+using namespace logplus ;
 
 void printout_test() {
   message( "This message should normally not be interleaved by messages from other threads" ) ;
