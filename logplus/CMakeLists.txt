@@ -25,7 +25,7 @@ find_package( Threads REQUIRED )
 
 aux_source_directory( source/src logplus_sources )
 add_library( logplus SHARED ${logplus_sources} )
-add_library( logplus::streamlogplus ALIAS logplus )
+add_library( logplus::logplus ALIAS logplus )
 install( TARGETS logplus EXPORT logplus LIBRARY )
 target_link_libraries( logplus PUBLIC fmt::fmt std::filesystem Threads::Threads )
 target_include_directories( 
