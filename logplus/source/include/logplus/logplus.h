@@ -1,10 +1,10 @@
 
 // -- streamlogplus interface headers
-#include <streamlogplus/config.h>
-#include <streamlogplus/loglevels.h>
-#include <streamlogplus/logger.h>
+#include <logplus/config.h>
+#include <logplus/loglevels.h>
+#include <logplus/logger.h>
 
-namespace streamlogplus {
+namespace logplus {
   
   /** @name Global logger
    */

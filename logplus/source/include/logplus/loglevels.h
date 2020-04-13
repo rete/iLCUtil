@@ -4,9 +4,9 @@
 #include <stdexcept>
 
 // -- streamlogplus headers
-#include <streamlogplus/config.h>
+#include <logplus/config.h>
 
-namespace streamlogplus {
+namespace logplus {
     
   /// base_verbosity struct
   /// The base definition for verbosity level 

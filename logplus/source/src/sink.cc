@@ -1,11 +1,11 @@
 
-#include <streamlogplus/sink.h>
+#include <logplus/sink.h>
 
 #include <filesystem>
 #include <stdexcept>
 #include <sstream>
 
-namespace streamlogplus {
+namespace logplus {
   
   std::mutex __mcout__ {} ;
   

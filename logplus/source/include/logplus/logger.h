@@ -4,11 +4,11 @@
 #include <mutex>
 
 // -- streamlogplus headers
-#include <streamlogplus/loglevels.h>
-#include <streamlogplus/formatter.h>
-#include <streamlogplus/sink.h>
+#include <logplus/loglevels.h>
+#include <logplus/formatter.h>
+#include <logplus/sink.h>
 
-namespace streamlogplus {
+namespace logplus {
   
   /// logger class. 
   /// A logger consist of a name and a verbosity level being adjustable.

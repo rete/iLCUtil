@@ -8,9 +8,9 @@
 #include <vector>
 #include <unordered_map>
 
-#include <streamlogplus/loglevels.h>
+#include <logplus/loglevels.h>
 
-namespace streamlogplus {
+namespace logplus {
   
   class sink {
   public:

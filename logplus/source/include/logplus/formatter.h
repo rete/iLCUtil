@@ -10,7 +10,7 @@
 #include <fmt/chrono.h>
 #include <fmt/ostream.h>
 
-namespace streamlogplus {
+namespace logplus {
   
   /// message_data struct
   /// A simple structure handling data about a message being logged

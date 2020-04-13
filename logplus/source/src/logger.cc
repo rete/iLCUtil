@@ -1,7 +1,7 @@
 
-#include <streamlogplus/logger.h>
+#include <logplus/logger.h>
 
-namespace streamlogplus {
+namespace logplus {
   
   logger __globallogger__ ;
 

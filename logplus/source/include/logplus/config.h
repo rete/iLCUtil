@@ -1,7 +1,7 @@
 
 #pragma once
 
-namespace streamlogplus {
+namespace logplus {
 
   /// config struct
   /// Handles the configuration constants of streamlogplus 
